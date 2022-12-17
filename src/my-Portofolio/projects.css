@@ -1,0 +1,126 @@
+.projects {
+    display: flex;
+    justify-content: center;
+    height: 86%;
+    width: 100%;
+    background: #b05bf6;
+    overflow:hidden;
+}
+.projects .linkspro{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin: 25px 0px;
+    column-gap:33px;
+    transition:0.8s;
+}
+.projects a{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-grow: 1;
+    height:60%;
+    text-decoration: none;
+    cursor:auto;
+    transition:0.8s;
+}
+.projects  .linkspro .first{
+    top:-500px;
+    left:-500px;
+}
+.projects .linkspro .first.back{
+    top:0px;
+    left:0px;
+}
+.projects  .linkspro .second{
+    top:-500px;
+    
+}
+.projects .linkspro .second.back{
+    top:0px;
+}
+.projects  .linkspro .third{
+    left:500px;
+    top:-500px;
+}
+.projects .linkspro .third.back{
+    left:0px;
+    top:0;
+}
+.projects  .linkspro .fourth{
+    bottom:-500px;
+    left:-500px;
+}
+.projects .linkspro .fourth.back{
+    bottom:0;
+    left:0;
+}
+.projects  .linkspro .fiveth{
+    bottom:-500px;
+}
+.projects .linkspro .fiveth.back{
+    bottom:0px;
+}
+.projects  .linkspro .sexith{
+    left:500px;
+    bottom:-500px;
+}
+.projects .linkspro .sexith.back{
+    left:0px;
+    bottom:0;
+}
+@media(Max-width:767px){
+    .projects .linkspro{
+        column-gap:0;
+    }
+    .projects a{
+        width:50%;
+        height:40%;
+    }
+}
+.projects a .cruds{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    background-image:url('../ima/gallery-04.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    cursor: pointer;
+    box-shadow: -2px 3px 25px 11px #2b262f;
+
+}
+.projects a .cruds img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: 80%;
+}
+.projects a .cruds textarea{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: 80%;
+    outline:none;
+    resize:none;
+    cursor:pointer;
+    opacity:0;
+    transition:1s;
+}
+.projects .linkspro a h4{
+    position: absolute;
+    bottom: 7px;
+    color: #000;
+    cursor:pointer;
+}
+.projects a:hover .cruds textarea{
+    opacity:1;
+}
