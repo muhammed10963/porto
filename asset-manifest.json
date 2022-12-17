@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/porto/static/css/main.79c7ee22.css",
+    "main.js": "/porto/static/js/main.5b969e38.js",
+    "static/js/845.02c2105b.chunk.js": "/porto/static/js/845.02c2105b.chunk.js",
+    "static/media/22.jpg": "/porto/static/media/22.884413001b3716b5923e.jpg",
+    "static/media/memory-game.jpg": "/porto/static/media/memory-game.be8572754089068609e0.jpg",
+    "static/media/R.png": "/porto/static/media/R.231fc76b9d4064ae766d.png",
+    "static/media/3.jpg": "/porto/static/media/3.6f710ce9ec86f1315d2a.jpg",
+    "static/media/hang.jpg": "/porto/static/media/hang.ffd84460e526df89cabf.jpg",
+    "static/media/gallery-04.png": "/porto/static/media/gallery-04.d297ee93a8e418e01eba.png",
+    "static/media/cruds.png": "/porto/static/media/cruds.0748eb5732aa99f54da2.png",
+    "static/media/t.mp3": "/porto/static/media/t.85a69ebd3086c78cfd03.mp3",
+    "static/media/quiz.png": "/porto/static/media/quiz.a2022a7bb14fc6c7d5b3.png",
+    "static/media/slider.jpg": "/porto/static/media/slider.5b7d1cc80f154479290f.jpg",
+    "static/media/mn.jpg": "/porto/static/media/mn.7dc0ad0a7f3b2c1d33dd.jpg",
+    "index.html": "/porto/index.html",
+    "main.79c7ee22.css.map": "/porto/static/css/main.79c7ee22.css.map",
+    "main.5b969e38.js.map": "/porto/static/js/main.5b969e38.js.map",
+    "845.02c2105b.chunk.js.map": "/porto/static/js/845.02c2105b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79c7ee22.css",
+    "static/js/main.5b969e38.js"
+  ]
+}
